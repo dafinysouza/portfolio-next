@@ -1,4 +1,6 @@
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+import Header from '../src/components/commons/Header';
 
 const Title = styled.h1`
   font-size: 50px;
@@ -6,5 +8,7 @@ const Title = styled.h1`
 `
 
 export default function Home() {
-  return <Title>My page</Title>
+  return (
+    <Header />
+  );
 }
